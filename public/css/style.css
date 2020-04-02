@@ -1,0 +1,34 @@
+iframe {
+    /*max-height: 70% !important;
+    border-top:0;*/
+    background: transparent; 
+}
+
+.embed-responsive-4by3::before{
+	padding-top: 280px !important
+}
+.text-desc{
+    width: 100px;
+}
+.icon{
+    width: 46px;
+}
+
+span.input-group-text.text-desc{
+	font-size: .8rem;
+}
+span.input-group-text.icon{
+	background:#0c93ff;
+	color: white 
+}
+input,select{
+	padding: 24px !important;
+	/* box-shadow: 0 2px 4px 0 rgba(0, 77, 129, .08); */
+}
+.btn-danger{
+	background: #fa774d !important
+}
+select>selected{
+	background-color: red;
+  }
+
